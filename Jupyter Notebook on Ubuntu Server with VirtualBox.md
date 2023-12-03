@@ -24,7 +24,9 @@
 > デフォルト設定ではホスト側からアクセスすることができなかったため
 
 1. `jupyter notebook --generate-config`で設定ファイルを生成
-2. **.jupyter/jupyter_notebook_config.py**を開き、**c.NotebookApp.allow_origin = '*'**と**c.NotebookApp.ip = '0.0.0.0'**を末に追加
+2. **.jupyter/jupyter_notebook_config.py**を開き、以下を末に追加
+  - c.NotebookApp.allow_origin = '*'
+  - c.NotebookApp.ip = '0.0.0.0'
 
 ## 4. Jupter Notebookの自動起動設定
 
