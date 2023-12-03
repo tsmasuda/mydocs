@@ -17,6 +17,7 @@
 
 1. **/etc/netplan/00-installer-config.yaml**を開き、enp0s8を有効化
 2. `sudo netplan apply`で設定ファイルを有効化
+3. `ifconfig -a`で付与されているIPアドレスを確認
 
 ## 3. Jupyter Notebookを設定
 
